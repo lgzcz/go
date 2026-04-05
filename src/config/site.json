@@ -1,0 +1,42 @@
+[
+  {
+    "name": "博客",
+    "url": "https://blog.rusin.cn.mt",
+    "icon": "fa fa-blog"
+  },
+  {
+    "name": "文档",
+    "url": "https://docs.rusin.cn.mt",
+    "icon": "fa fa-list-alt"
+  },
+  {
+    "name": "论坛",
+    "url": "https://forum.rusin.cn.mt",
+    "icon": "fa fa-comment-dots"
+  },
+  {
+    "name": "工具",
+    "url": "https://tool.rusin.cn.mt",
+    "icon": "fa fa-tools"
+  },
+  {
+    "name": "封面",
+    "url": "https://cover.rusin.cn.mt/",
+    "icon": "fa fa-image"
+  },
+  {
+    "name": "监测",
+    "url": "https://statu.rusin.cn.mt/",
+    "icon": "fa fa-chart-line"
+  },
+  {
+    "name": "图标",
+    "url": "https://icon.rusin.cn.mt/",
+    "icon": "fa fa-icons"
+  },
+  {
+    "name": "统计",
+    "url": "https://example.com/",
+    "icon": "fa fa-chart-pie"
+  }
+]

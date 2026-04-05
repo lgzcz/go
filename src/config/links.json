@@ -1,0 +1,20 @@
+[
+  {
+    "type": "Email",
+    "icon": "fas fa-envelope",
+    "url": "mailto:Haoxuanzhang2014@outlook.com",
+    "hoverColor": "#e78b0a"
+  },
+  {
+    "type": "Github",
+    "icon": "fab fa-github",
+    "url": "https://github.com/ruying-suixing",
+    "hoverColor": "#6500fc"
+  },
+  {
+    "type": "洛谷",
+    "icon": "fa fa-bug",
+    "url": "https://luogu.com.cn/user/1620655",
+    "hoverColor": "#007aff"
+  }
+]
