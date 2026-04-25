@@ -1,37 +1,37 @@
 [
   {
     "name": "博客",
-    "url": "https://blog.rusin.cn.mt",
+    "url": "https://blog.rusin.dpdns.org",
     "icon": "fa fa-blog"
   },
   {
     "name": "文档",
-    "url": "https://docs.rusin.cn.mt",
+    "url": "https://docs.rusin.dpdns.org",
     "icon": "fa fa-list-alt"
   },
   {
     "name": "论坛",
-    "url": "https://forum.rusin.cn.mt",
+    "url": "https://forum.rusin.dpdns.org",
     "icon": "fa fa-comment-dots"
   },
   {
     "name": "工具",
-    "url": "https://tool.rusin.cn.mt",
+    "url": "https://tool.rusin.dpdns.org",
     "icon": "fa fa-tools"
   },
   {
     "name": "封面",
-    "url": "https://cover.rusin.cn.mt/",
+    "url": "https://cover.rusin.dpdns.org/",
     "icon": "fa fa-image"
   },
   {
     "name": "监测",
-    "url": "https://statu.rusin.cn.mt/",
+    "url": "https://statu.rusin.dpdns.org/",
     "icon": "fa fa-chart-line"
   },
   {
     "name": "图标",
-    "url": "https://icon.rusin.cn.mt/",
+    "url": "https://icon.rusin.dpdns.org/",
     "icon": "fa fa-icons"
   },
   {
