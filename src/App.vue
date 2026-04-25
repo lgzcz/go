@@ -12,7 +12,6 @@
 
 <script setup>
 import { ref } from 'vue';
-import { Analytics } from "@vercel/analytics/vue";
 import Home from './components/Home.vue';
 
 const userName = ref(import.meta.env.VITE_APP_USER_NAME);
