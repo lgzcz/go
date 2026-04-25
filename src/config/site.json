@@ -36,7 +36,17 @@
   },
   {
     "name": "统计",
-    "url": "https://example.com/",
+    "url": "https://stai.rusin.dpdns.org/",
     "icon": "fa fa-chart-pie"
+  },
+  {
+    "name": "生活",
+    "url": "https://life.rusin.dpdns.org/",
+    "icon": "fa fa-calendar"
+  },
+  {
+    "name": "主页",
+    "url": "https://dash.lovestoblog.com/",
+    "icon": "fa fa-home"
   }
 ]
