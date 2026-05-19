@@ -16,11 +16,35 @@
     <div class="contact-section" v-motion-pop>
       <template v-for="contact in contacts" :key="contact.type">
         <a v-if="contact.url" :href="contact.url" target="_blank" class="contact-item" :style="{ '--hover-color': contact.hoverColor }">
-          <i :class="contact.icon"></i>
+          <span v-if="contact.type === '洛谷'" class="social icon-1" style="
+          display: inline-block !important;
+          width: 24px !important;
+          height: 24px !important;
+          background: none !important;
+          background-color: transparent !important;
+          font-family: 'my-luogu-icon' !important;
+          text-align: center !important;
+          line-height: 24px !important;
+          font-size: 20px !important;
+          "></span>
+          <i v-else :class="contact.icon"></i>
           <span class="tooltip">{{ contact.type }}</span>
         </a>
+
         <span v-else @click="toggleQRCode(contact.qrCode)" class="contact-item" :style="{ '--hover-color': contact.hoverColor }">
-          <i :class="contact.icon"></i>
+          <span v-if="contact.type === '洛谷'" class="social icon-1" style="
+          display: inline-block !important;
+          width: 24px !important;
+          height: 24px !important;
+          background: none !important;
+          background-color: transparent !important;
+          font-family: 'my-luogu-icon' !important;
+          text-align: center !important;
+          line-height: 24px !important;
+          font-size: 20px !important;
+          "></span>
+          <i v-else :class="contact.icon"></i>
+
           <span class="tooltip">{{ contact.type }}</span>
         </span>
       </template>
@@ -1321,6 +1345,7 @@ onMounted(() => {
 </script>
 
 <style scoped>
+/* 你原来所有的样式 一字不动 全部保留！！ */
 .content {
   flex: 1;
   display: flex;
@@ -1572,5 +1597,14 @@ onMounted(() => {
   h1 {
     font-size: 1.5em;
   }
+}
+
+/* ✨ Vue scoped 深度穿透，洛谷图标正常显示，页面不会乱！ */
+:deep(.social.icon-1) {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #007aff;
+  flex-shrink: 0;
 }
 </style>

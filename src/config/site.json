@@ -1,47 +1,47 @@
 [
   {
     "name": "博客",
-    "url": "https://blog.rusin.dpdns.org",
+    "url": "https://blog.rusin.lol",
     "icon": "fa fa-blog"
   },
   {
     "name": "文档",
-    "url": "https://docs.rusin.dpdns.org",
+    "url": "https://docs.rusin.lol",
     "icon": "fa fa-list-alt"
   },
   {
     "name": "论坛",
-    "url": "https://forum.rusin.dpdns.org",
+    "url": "https://forum.rusin.lol",
     "icon": "fa fa-comment-dots"
   },
   {
     "name": "工具",
-    "url": "https://tool.rusin.dpdns.org",
+    "url": "https://tool.rusin.lol",
     "icon": "fa fa-tools"
   },
   {
     "name": "封面",
-    "url": "https://cover.rusin.dpdns.org/",
+    "url": "https://cover.rusin.lol",
     "icon": "fa fa-image"
   },
   {
     "name": "监测",
-    "url": "https://statu.rusin.dpdns.org/",
+    "url": "https://statu.rusin.lol",
     "icon": "fa fa-chart-line"
   },
   {
     "name": "图标",
-    "url": "https://icon.rusin.dpdns.org/",
+    "url": "https://icon.rusin.lol",
     "icon": "fa fa-icons"
   },
   {
     "name": "统计",
-    "url": "https://stai.rusin.dpdns.org/",
+    "url": "https://stati.rusin.lol",
     "icon": "fa fa-chart-pie"
   },
   {
     "name": "生活",
-    "url": "https://life.rusin.dpdns.org/",
+    "url": "https://life.rusin.lol",
     "icon": "fa fa-calendar"
   },
   {
