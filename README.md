@@ -4,7 +4,7 @@
 
 ### Demo
 
-- [预览](https://rusin.dpdns.org)
+- [预览](https://rusin.lol)
 
 ### 修改
 
