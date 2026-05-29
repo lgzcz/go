@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI 聊天</title>
+    <!-- 引入Markdown解析 + 代码高亮 -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.min.css">
     <style>
         :root {
             --bg-color: #ffffff;
@@ -139,6 +142,18 @@
             border-bottom-left-radius: 4px;
         }
 
+        /* Markdown 样式适配 */
+        .markdown-body {
+            font-size: 0.95rem;
+        }
+        .markdown-body p { margin: 0.5em 0; }
+        .markdown-body pre {
+            background: #f1f1f1;
+            padding: 8px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+
         .ai-input-area {
             display: flex;
             gap: 8px;
@@ -236,22 +251,33 @@
 </main>
 
 <script>
-// ====================== 智谱 API 配置 ======================
+// API 配置
 const API_KEY = "7a731303e72744e287a21daa021eaa3f.fMYf7XN1zGJLrQqs";
 const API_URL = "https://open.bigmodel.cn/api/paas/v4/chat/completions";
 const MODEL = "glm-4.7-flash";
-// ============================================================
+
+// 系统提示词：强制中文 + 角色设定 + 支持Markdown
+const SYSTEM_PROMPT = `你是雪域智狐AI助手，**所有回答必须使用简体中文**。
+支持标准Markdown格式排版，代码、列表、加粗、引用等正常使用。
+回答简洁清晰、通俗易懂。`;
 
 const messagesEl = document.getElementById('ai-messages');
 const inputEl = document.getElementById('ai-input');
 const sendBtn = document.getElementById('ai-send-btn');
 
+// 渲染Markdown
+function renderMd(text) {
+    return marked.parse(text);
+}
+
 // 添加消息
 function addMsg(sender, text, isThinking = false) {
     const div = document.createElement('div');
-    div.className = 'ai-bubble ' + sender;
+    div.className = `ai-bubble ${sender}`;
     if (isThinking) {
         div.innerHTML = '<div class="thinking"><span></span><span></span><span></span></div>';
+    } else if (sender === 'bot') {
+        div.innerHTML = `<div class="markdown-body">${renderMd(text)}</div>`;
     } else {
         div.innerText = text;
     }
@@ -289,6 +315,7 @@ async function send() {
             body: JSON.stringify({
                 model: MODEL,
                 messages: [
+                    { role: "system", content: SYSTEM_PROMPT },
                     { role: "user", content: text }
                 ],
                 stream: false
@@ -296,11 +323,11 @@ async function send() {
         });
 
         const data = await response.json();
-        const reply = data.choices?.[0]?.message?.content || "抱歉，我没理解你的意思。";
-        botMsg.innerText = reply;
+        const reply = data.choices?.[0]?.message?.content || "抱歉，暂时无法回答。";
+        botMsg.innerHTML = `<div class="markdown-body">${renderMd(reply)}</div>`;
         messagesEl.scrollTop = messagesEl.scrollHeight;
     } catch (err) {
-        botMsg.innerText = "❌ 连接 AI 失败：" + err.message;
+        botMsg.innerText = "❌ 连接 AI 失败，请检查网络或API状态";
     }
 }
 </script>
