@@ -27,25 +27,18 @@
   -ms-user-select: none;
   user-select: none;
   box-sizing: border-box;
+  font-family: LXGW WenKai Screen, system-ui, -apple-system, sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
-@font-face {
-  font-family: "霞鹜文楷";
-  src: url("/font.ttf");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 body
   :not(.katex):not(.katex *):not(.fa):not(.fas):not(.far):not(.fab):not(
     .fal
   ):not(.fad):not([class*="fa-"]) {
-  font-family: "霞鹜文楷" !important;
+  font-family: LXGW WenKai Screen, system-ui, -apple-system, sans-serif;
 }
 .katex,
 .katex * {
@@ -63,7 +56,6 @@ body
   font-weight: 900 !important; /* 适配 solid 图标 */
 }
 
-/* 恢复所有洛谷图标样式 */
 [class^="icon-"], [class*=" icon-"], .social.icon {
   font-family: "my-luogu-icon" !important;
   font-style: normal;
@@ -85,7 +77,7 @@ html {
   margin: 0;
   display: flex;
   flex-direction: column;
-  font-family: "HarmonyOS_Regular", "MiSans", "HarmonyOS Sans SC", sans-serif;
+  font-family: LXGW WenKai Screen,"HarmonyOS_Regular", "MiSans", "HarmonyOS Sans SC", sans-serif;
   color: var(--text-color);
   overflow: hidden;
 }
