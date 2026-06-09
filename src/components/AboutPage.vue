@@ -55,7 +55,6 @@ const closeModal = () => emit('close');
 
 const fetchCommits = async () => {
   try {
-    // ✅ 这里已经换成你的 GitHub 用户名
     const response = await fetch('https://api.github.com/repos/ruying-suixing/go/commits');
     
     if (!response.ok) throw new Error('API 请求失败');
@@ -67,7 +66,6 @@ const fetchCommits = async () => {
     }));
   } catch (error) {
     console.error('获取更新失败', error);
-    // ✅ 请求失败也不会让页面报错
     lastUpdates.value = [{ message: '暂无更新记录', date: '' }];
   } finally {
     loading.value = false;
