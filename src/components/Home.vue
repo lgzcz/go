@@ -2,7 +2,7 @@
   <div class="content">
     <div class="user-profile-container">
       <div class="user-profile-image" v-motion-pop>
-        <img :src="profileImage" alt="头像" @click.stop="toggleInfo">
+        <img :src="profileImage" alt="我的头像" @click.stop="toggleInfo">
         <span class="status-ball"></span>
       </div>
       <div class="user-name" v-motion-slide-left>
