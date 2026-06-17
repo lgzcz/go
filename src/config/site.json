@@ -46,7 +46,27 @@
   },
   {
     "name": "主页",
-    "url": "https://dash.lovestoblog.com/",
+    "url": "https://tab.rusin.lol",
     "icon": "fa fa-home"
+  },
+  {
+    "name": "白板",
+    "url": "https://board.rusin.lol",
+    "icon": "fa-solid fa-pen-ruler"
+  },
+  {
+    "name": "项目",
+    "url": "https://pro.rusin.lol",
+    "icon": "fa-solid fa-cookie"
+  },
+  {
+    "name": "图床",
+    "url": "https://image.rusin.lol",
+    "icon": "fa-solid fa-upload"
+  },
+  {
+    "name": "每日一图",
+    "url": "https://bimg.rusin.lol",
+    "icon": "fa-solid fa-images"
   }
 ]
