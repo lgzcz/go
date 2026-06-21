@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --border-radius: 10px;
   --text-size: 16px;
@@ -73,17 +77,32 @@ ul {
 
 body,
 html {
-  height: 100%;
+  min-height: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
   font-family: LXGW WenKai Screen,"HarmonyOS_Regular", "MiSans", "HarmonyOS Sans SC", sans-serif;
   color: var(--text-color);
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 body.dark-mode {
-  filter: brightness(0.7);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body.dark-mode .background {
+  background: var(--background-color) var(--background-image) repeat;
+}
+
+body.dark-mode footer a {
+  color: var(--text-color);
+}
+
+body.dark-mode .qr-image {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 /* App 页面 */

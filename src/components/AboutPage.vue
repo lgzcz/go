@@ -55,7 +55,7 @@ const closeModal = () => emit('close');
 
 const fetchCommits = async () => {
   try {
-    const response = await fetch('https://api.github.com/repos/ruying-suixing/ruying-suixing.github.io/commits');
+    const response = await fetch('https://api.github.com/repos/ruying-suixing/go/commits');
     
     if (!response.ok) throw new Error('API 请求失败');
     
