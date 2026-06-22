@@ -48,14 +48,14 @@ onMounted(() => {
 
 <style scoped>
 .container {
-  max-width: 700px;
+  max-width: 900px;
   width: 100%;
-  margin: 30px 0 20px;
+  margin: 40px 0 30px;
 }
 
 .swiper-container {
   overflow: hidden;
-  padding: 10px;
+  padding: 20px;
 }
 
 .swiper-pagination {
@@ -65,7 +65,7 @@ onMounted(() => {
 .site-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+  gap: 25px;
 }
 
 .site-box {
@@ -75,7 +75,7 @@ onMounted(() => {
 }
 
 .card-base {
-  padding: 20px;
+  padding: 30px;
   border-radius: calc(var(--border-radius) * 1.2);
   background: rgba(var(--background-color-rgb), 0.18);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
@@ -127,7 +127,7 @@ onMounted(() => {
 }
 
 .inner-card {
-  padding: 18px 16px;
+  padding: 26px 20px;
   border-radius: calc(var(--border-radius) * 0.9);
   background: rgba(var(--background-color-rgb), 0.12);
   backdrop-filter: blur(10px);
