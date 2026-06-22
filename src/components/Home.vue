@@ -214,13 +214,13 @@ onMounted(() => {
 
 <style scoped>
 .content {
+  margin-top: 100px;
   flex: 1;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  margin-top: 20px;
 
   .user-profile-container {
     display: flex;
