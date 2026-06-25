@@ -4,11 +4,11 @@
 
 ### Demo
 
-- [预览](https://rusin.lol)
+- [预览](https://rusin7.com)
 
 ### 修改
 
-图标默认采用Font Awesome，如需修改图标，请前往 [Font Awesome](https://fa6.dashgame.com/) 复制图标
+图标默认采用 Font Awesome，如需修改图标，请前往 [Font Awesome](https://fa6.dashgame.com/) 复制图标
 
 - 修改联系方式 **`src/config/links.json`** 文件中的内容值即可。
 - 修改网站列表 **`src/config/site.json`** 文件中的内容值即可。

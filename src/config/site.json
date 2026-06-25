@@ -1,72 +1,72 @@
 [
   {
     "name": "博客",
-    "url": "https://blog.rusin.lol",
+    "url": "https://blog.rusin7.com",
     "icon": "fa fa-blog"
   },
   {
     "name": "文档",
-    "url": "https://docs.rusin.lol",
+    "url": "https://docs.rusin7.com",
     "icon": "fa fa-list-alt"
   },
   {
     "name": "论坛",
-    "url": "https://forum.rusin.lol",
+    "url": "https://zjsh.freeflarum.com",
     "icon": "fa fa-comment-dots"
   },
   {
     "name": "工具",
-    "url": "https://tool.rusin.lol",
+    "url": "https://tool.rusin7.com",
     "icon": "fa fa-tools"
   },
   {
     "name": "封面",
-    "url": "https://cover.rusin.lol",
+    "url": "https://cover.rusin7.com",
     "icon": "fa fa-image"
   },
   {
     "name": "监测",
-    "url": "https://statu.rusin.lol",
+    "url": "https://statu.rusin7.com",
     "icon": "fa fa-chart-line"
   },
   {
     "name": "图标",
-    "url": "https://icon.rusin.lol",
+    "url": "https://icon.rusin7.com",
     "icon": "fa fa-icons"
   },
   {
     "name": "统计",
-    "url": "https://stati.rusin.lol",
+    "url": "https://stati.rusin7.com",
     "icon": "fa fa-chart-pie"
   },
   {
     "name": "生活",
-    "url": "https://life.rusin.lol",
+    "url": "https://life.rusin7.com",
     "icon": "fa fa-calendar"
   },
   {
     "name": "主页",
-    "url": "https://tab.rusin.lol",
+    "url": "https://tab.rusin7.com",
     "icon": "fa fa-home"
   },
   {
     "name": "白板",
-    "url": "https://board.rusin.lol",
+    "url": "https://board.rusin7.com",
     "icon": "fa-solid fa-pen-ruler"
   },
   {
     "name": "项目",
-    "url": "https://pro.rusin.lol",
+    "url": "https://pro.rusin7.com",
     "icon": "fa-solid fa-cookie"
   },
   {
     "name": "图床",
-    "url": "https://image.rusin.lol",
+    "url": "https://image.rusin7.com",
     "icon": "fa-solid fa-upload"
   },
   {
     "name": "每日一图",
-    "url": "https://bimg.rusin.lol",
+    "url": "https://bimg.rusin7.com",
     "icon": "fa-solid fa-images"
   }
 ]
