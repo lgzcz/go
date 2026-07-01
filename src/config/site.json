@@ -7,7 +7,7 @@
   {
     "name": "文档",
     "url": "https://docs.rusin7.com",
-    "icon": "fa fa-list-alt"
+    "icon": "fa fa-book"
   },
   {
     "name": "论坛",
@@ -68,5 +68,30 @@
     "name": "每日一图",
     "url": "https://bimg.rusin7.com",
     "icon": "fa-solid fa-images"
+  },
+  {
+    "name": "塔罗牌占卜",
+    "url": "https://tarot.rusin7.com",
+    "icon": "fa-solid fa-wand-magic-sparkles"
+  },
+  {
+    "name": "剪贴板",
+    "url": "https://paste.rusin.dpdns.org",
+    "icon": "fa-solid fa-paste"
+  },
+  {
+    "name": "访问分析",
+    "url": "https://hanal.rusin7.com",
+    "icon": "fa-solid fa-eye"
+  },
+  {
+    "name": "热榜",
+    "url": "https://hot.rusin7.com",
+    "icon": "fa-solid fa-fire"
+  },
+  {
+    "name": "收藏夹",
+    "url": "https://web.rusin7.com",
+    "icon": "fa-solid fa-bookmark"
   }
 ]
