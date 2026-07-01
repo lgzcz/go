@@ -93,5 +93,15 @@
     "name": "收藏夹",
     "url": "https://web.rusin7.com",
     "icon": "fa-solid fa-bookmark"
+  },
+  {
+    "name": "Chatgpt",
+    "url": "https://chat.rusin7.com",
+    "icon": "fa-brands fa-openai"
+  },
+  {
+    "name": "计算器",
+    "url": "https://math.rusin7.com",
+    "icon": "fa-solid fa-calculator"
   }
 ]
