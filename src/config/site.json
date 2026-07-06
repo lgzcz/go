@@ -122,11 +122,11 @@
   {
     "name": "监测2",
     "url": "https://statu2.rusin7.com",
-    "icon": "fa-solid fa-calculator"
+    "icon": "fa-solid fa-chart-line"
   },
   {
     "name": "云盘",
     "url": "https://onedrive.rusin7.com",
-    "icon": "fa-solid fa-calculator"
+    "icon": "fa-solid fa-cloud-arrow-down"
   }
 ]
