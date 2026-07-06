@@ -103,5 +103,15 @@
     "name": "计算器",
     "url": "https://math.rusin7.com",
     "icon": "fa-solid fa-calculator"
+  },
+  {
+    "name": "监测2",
+    "url": "https://statu2.rusin7.com",
+    "icon": "fa-solid fa-calculator"
+  },
+  {
+    "name": "云盘",
+    "url": "https://onedrive.rusin7.com",
+    "icon": "fa-solid fa-calculator"
   }
 ]
