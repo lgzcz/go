@@ -75,11 +75,6 @@
     "icon": "fa-solid fa-wand-magic-sparkles"
   },
   {
-    "name": "剪贴板",
-    "url": "https://paste.rusin.dpdns.org",
-    "icon": "fa-solid fa-paste"
-  },
-  {
     "name": "访问分析",
     "url": "https://hanal.rusin7.com",
     "icon": "fa-solid fa-eye"
@@ -103,6 +98,26 @@
     "name": "计算器",
     "url": "https://math.rusin7.com",
     "icon": "fa-solid fa-calculator"
+  },
+  {
+    "name": "云笔记",
+    "url": "https://notepad.rusin.top",
+    "icon": "fa-solid fa-clipboard"
+  },
+  {
+    "name": "云邮箱",
+    "url": "https://mail.rusin.top",
+    "icon": "fa-solid fa-envelope-open-text"
+  },
+  {
+    "name": "剪贴板",
+    "url": "https://paste.rusin.top",
+    "icon": "fa-solid fa-paste"
+  },
+  {
+    "name": "聊天室",
+    "url": "https://talk.rusin.top",
+    "icon": "fa-solid fa-message"
   },
   {
     "name": "监测2",
