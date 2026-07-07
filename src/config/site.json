@@ -70,6 +70,16 @@
     "icon": "fa-solid fa-images"
   },
   {
+    "name": "翻译",
+    "url": "https://tran.rusin.top",
+    "icon": "fa-solid fa-language"
+  },
+  {
+    "name": "短链",
+    "url": "https://surl.rusin.top",
+    "icon":"fa-solid fa-link"
+  },
+  {
     "name": "塔罗牌占卜",
     "url": "https://tarot.rusin7.com",
     "icon": "fa-solid fa-wand-magic-sparkles"
