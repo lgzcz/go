@@ -138,5 +138,20 @@
     "name": "云盘",
     "url": "https://onedrive.rusin7.com",
     "icon": "fa-solid fa-cloud-arrow-down"
+  },
+  {
+    "name": "OJ",
+    "url": "https://oj.rusin.top",
+    "icon": "fa-solid fa-code"
+  },
+  {
+    "name": "代码快照1",
+    "url": "https://chalkist.rusin7.com",
+    "icon": "fa-regular fa-camera"
+  },
+  {
+    "name": "代码快照2",
+    "url": "https://codeimg.rusin7.com",
+    "icon": "fa-regular fa-camera"
   }
 ]
