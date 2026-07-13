@@ -2,18 +2,18 @@
   {
     "type": "Email",
     "icon": "fas fa-envelope",
-    "url": "mailto:Haoxuanzhang2014@outlook.com",
+    "url": "mailto:lg12321a@163.com",
     "hoverColor": "#e78b0a"
   },
   {
     "type": "Github",
     "icon": "fab fa-github",
-    "url": "https://github.com/ruying-suixing",
+    "url": "https://github.com/ZhaoXinze666",
     "hoverColor": "#6500fc"
   },
   {
     "type": "洛谷",
-    "url": "https://luogu.com.cn/user/1620655",
+    "url": "https://luogu.com.cn/user/1217878",
     "hoverColor": "#007aff"
   }
 ]
