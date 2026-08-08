@@ -4,7 +4,7 @@
 
 ### Demo
 
-- [预览](https://rusin7.com)
+- [预览](https://bslzzz.com)
 
 ### 修改
 

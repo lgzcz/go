@@ -7,6 +7,41 @@
   {
     "name": "OJ",
     "url": "https://oj.bslzzz.cn",
-    "icon": "fa fa-book"
+    "icon": "fa-solid fa-code"
+  },
+  {
+    "name": "论坛",
+    "url": "https://zjsh.freeflarum.com",
+    "icon": "fa fa-comment-dots"
+  },
+  {
+    "name": "白板",
+    "url": "https://board.bslzzz.cn",
+    "icon": "fa-solid fa-pen-ruler"
+  },
+  {
+    "name": "热榜",
+    "url": "https://hot.bslzzz.cn",
+    "icon": "fa-solid fa-fire"
+  },
+  {
+    "name": "云笔记",
+    "url": "https://note.bslzzz.cn",
+    "icon": "fa-solid fa-clipboard"
+  },
+  {
+    "name": "云邮箱",
+    "url": "https://mail.bslzzz.cn",
+    "icon": "fa-solid fa-envelope-open-text"
+  },
+  {
+    "name": "聊天室",
+    "url": "https://talk.bslzzz.cn",
+    "icon": "fa-solid fa-message"
+  },
+  {
+    "name": "云盘",
+    "url": "https://pan.bslzzz.cn",
+    "icon": "fa-solid fa-cloud-arrow-down"
   }
 ]
