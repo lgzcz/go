@@ -13,7 +13,7 @@
         </div>
         <div class="github-info">
           <h3>开源仓库</h3>
-          <a href="https://github.com/ruying-suixing/" target="_blank" class="github-link">
+          <a href="https://github.com/lgzcz/" target="_blank" class="github-link">
             <i class="fab fa-github"></i> Github
           </a>
         </div>
